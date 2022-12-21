@@ -37,7 +37,7 @@ export default () => {
             </>
           }
         />
-        <MainFeature
+        {/* <MainFeature
           subheading={<Subheading>Quality Work</Subheading>}
           imageSrc={heroScreenshotImageSrc}
           imageBorder={true}
@@ -181,7 +181,7 @@ export default () => {
             }
           ]}
         />
-        <GetStarted />
+        <GetStarted /> */}
       </AnimationRevealPage>
       <div style={{maxWidth:'100vw', overflow:'hidden'}}>
       <Footer /></div></>

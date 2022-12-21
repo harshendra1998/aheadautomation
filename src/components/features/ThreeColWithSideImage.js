@@ -69,23 +69,23 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
 
   const defaultCards = [
     {
-      imageSrc: ShieldIconImage,
+      imageSrc: '/images/cameraimage.jpg',
       title: "Camera",
       description: "We Do Install New Cameras and do the services of old camera and security Syetm like analog , Digital cameras "
     },
-    { imageSrc: SupportIconImage, title: "Routers & Access points",
+    { imageSrc: '/images/networkimage.png', title: "Routers & Access points",
     description: "We Do Installations and Services Of Routers , Access points ( Unifi , Aruba , Omada TP Link , Ruccas etc"
   },
-    { imageSrc: CustomizeIconImage, title: "AV System " ,
+    { imageSrc: '/images/avimage.jpg', title: "AV System " ,
     description: "We do Installations & Services of Amplifiers ( Denon , marantz , Anthem , Yamaha ), projectors , Speakers , TV and Tatasky "
   },
-    { imageSrc: ReliableIconImage, title: "Video Door Phones",
+    { imageSrc: '/images/vdpimage.jpg', title: "Video Door Phones",
     description: "We do installation & Services of  Commax , Akuvox , Onetouch VDP "
    },
-    { imageSrc: FastIconImage, title: "Electrical Work",
+    { imageSrc: '/images/electicalimage.png', title: "Electrical Work",
     description: "We Do Wiring Of Homes and offices and light installations "
    },
-   { imageSrc: SimpleIconImage, title: "AMC ",
+   { imageSrc: '/images/amcimage.jpg', title: "AMC ",
    description: "We Take AMC Of Camera , AV System , Electrical Work , VDP etc"
   }
   ];
@@ -102,18 +102,18 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
         {cards.map((card, i) => (
           <Column key={i}>
             <Card class="max-w-sm rounded overflow-hidden shadow-lg">
-  <img class="w-full" src="/imagewall.jpg" alt="Sunset in the mountains"></img>
+  <img class="w-full h-45" src={card.imageSrc} alt={card.title + ' Image'}></img>
   <div  className="textContainer">
-    <div className="title">The Coldest Sunset</div>
-    <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
+  <span className="title">{card.title || "Fully Secure"}</span>
+  <p className="description">
+                  {card.description || "Our  Services Include Automation , Security System , AMC and  New Installations . Our Technician Reaches in 24 Hours After Complaints Locked"}
+                </p>
   </div>
-  <div class="px-6 pt-4 pb-2">
+  {/* <div class="px-6 pt-4 pb-2">
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-  </div>
+  </div> */}
 </Card>
             {/* <Card>
               <span className="imageContainer">
