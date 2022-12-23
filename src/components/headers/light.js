@@ -23,7 +23,7 @@ export const NavLinks = tw.div`inline-block md:pt-1`;
 export const NavLink = tw.a`
   text-lg my-2 lg:text-sm lg:mx-6 lg:my-0 md:pt-4
   font-semibold tracking-wide transition duration-300
-  pb-1 border-b-2 border-transparent hover:border-primary-500 hocus:text-primary-500
+  pb-1 border-b-2 border-transparent text-yellow-800 md:text-yellow-500 hover:border-yellow-500 md:hover:border-yellow-300 hocus:text-yellow-500 md:hocus:text-yellow-300
 `;
 
 export const PrimaryLink = tw(NavLink)`
