@@ -124,8 +124,8 @@ export default () => {
             <LinkList>
               <LinkListItem>
                 <div className="google-map-code">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15282225.79979123!2d73.7250245393691!3d20.750301298393563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1587818542745!5m2!1sen!2sin" width="400" height="150" className="" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.9083112017606!2d73.03438075!3d18.9796563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c323fc5b2c09%3A0xe9d9b93daa82575c!2sBhagwati%20Bellavista%2C%20Sector%2023%2C%20Ulwe%2C%20Navi%20Mumbai%2C%20Maharashtra%20410206!5e0!3m2!1sen!2sin!4v1673182607440!5m2!1sen!2sin" width="400" height="150" className="" frameborder="0" style={{ border: 0 }} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
               </LinkListItem>
               <LinkListItem>
                 <Link>Address:- Bhagwati Bldg, Shop No-3, Plot-127, Sector-23, Ulwe, Navi Mumbai - 410206 </Link>
@@ -136,7 +136,7 @@ export default () => {
         <Divider />
         <ThreeColRow>
           <LogoContainer>
-            <LogoImg style={{width:250}} src={'./whiteicon.svg'} />
+            <LogoImg style={{ width: 250 }} src={'./whiteicon.svg'} />
           </LogoContainer>
           <CopywrightNotice>&copy; 2022 AheadAutomation. All Rights Reserved.</CopywrightNotice>
           <SocialLinksContainer>
