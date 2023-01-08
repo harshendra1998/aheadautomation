@@ -1,6 +1,7 @@
 import "tailwindcss/dist/base.css";
 import "styles/globalStyles.css";
 import React from "react";
+import Footer from "components/footers/FiveColumnWithBackground.js";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
 /*
@@ -114,6 +115,7 @@ export default function App() {
 
 
   return (
+    <>
     <Router>
       <Switch>
         {/* <Route path="/components/:type/:subtype/:name">
@@ -130,6 +132,9 @@ export default function App() {
         </Route>
       </Switch>
     </Router>
+    <div style={{maxWidth:'100vw', overflow:'hidden'}}>
+      <Footer /></div>
+    </>
   );
 }
 

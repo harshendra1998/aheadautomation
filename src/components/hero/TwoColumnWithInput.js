@@ -16,7 +16,7 @@ const LeftColumn = tw.div`relative lg:w-5/12 text-center max-w-lg mx-auto lg:max
 const RightColumn = tw.div`relative mt-12 lg:mt-0 flex-1 flex flex-col justify-center lg:self-end`;
 
 const Heading = tw.h1`font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-900 leading-tight`;
-const Paragraph = tw.p`my-5 font-semibold lg:my-8 text-lg xl:text-xl text-red-700`;
+const Paragraph = tw.p`my-5 font-semibold lg:my-8 text-lg xl:text-xl text-blue-900`;
 
 const Actions = styled.div`
   ${tw`relative max-w-md text-center mx-auto lg:mx-0`}
@@ -55,10 +55,10 @@ export default ({ roundedHeaderButton }) => {
           <div>
             <Heading className="text-4xl">
               {/* text-primary */}
-            Welcome to <span tw="text-orange-600 font-extrabold">Ahead Automation</span>
+            Welcome to <span tw="text-blue-600 font-extrabold">Ahead Automation</span>
             </Heading>
             <Paragraph>
-            We are a Automation company Wo does New Installations of Camera , VDP , Conference Syste , AV System , Electrical Work ,Electrical Work And We Provide Services For Same . Our Team members are available at thane , dadar , Kalyan ,Andheri to provide Quicker and faster Services .
+            We are a Automation company We do New Installations of Camera, VDP, Conference Syste, AV System, Electrical Work And We Provide Services For Same. Our Team members are available at Thane, Dadar, Kalyan, Andheri to provide Quicker and faster Services .
             </Paragraph>
             </div>
             {/* <Actions>

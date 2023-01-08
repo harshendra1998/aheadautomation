@@ -11,7 +11,6 @@ import Pricing from "components/pricing/ThreePlans.js";
 import Testimonial from "components/testimonials/TwoColumnWithImageAndRating.js";
 import FAQ from "components/faqs/SingleCol.js";
 import GetStarted from "components/cta/GetStarted";
-import Footer from "components/footers/FiveColumnWithBackground.js";
 import heroScreenshotImageSrc from "images/hero-screenshot-1.png";
 import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
 import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
@@ -183,7 +182,6 @@ export default () => {
         />
         <GetStarted /> */}
       </AnimationRevealPage>
-      <div style={{maxWidth:'100vw', overflow:'hidden'}}>
-      <Footer /></div></>
+      </>
   );
 }
