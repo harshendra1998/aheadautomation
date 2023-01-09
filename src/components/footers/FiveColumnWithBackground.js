@@ -19,6 +19,8 @@ const ColumnHeading = tw.h5`uppercase font-bold`;
 
 const LinkList = tw.ul`mt-6 text-sm font-medium`;
 const LinkListItem = tw.li`mt-3 justify-center flex items-center`;
+const LinkListMapItem = tw.li`mt-3 flex bg-red-400 items-stretch`;
+const Map = tw.iframe`flex-1 bg-red-400 self-stretch`;
 const Link = tw.a`border-b-2 border-transparent hocus:border-gray-100 pb-1 transition duration-300`;
 
 const Divider = tw.div`my-16 border-b-2 border-primary-400 w-full`;
@@ -122,9 +124,9 @@ export default () => {
           </Column> */}
           <Column>
             <LinkList>
-              <LinkListItem>
-                  <iframe className="w-full bg-red-400" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.9083112017606!2d73.03438075!3d18.9796563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c323fc5b2c09%3A0xe9d9b93daa82575c!2sBhagwati%20Bellavista%2C%20Sector%2023%2C%20Ulwe%2C%20Navi%20Mumbai%2C%20Maharashtra%20410206!5e0!3m2!1sen!2sin!4v1673182607440!5m2!1sen!2sin" frameborder="0" style={{ border: 0 }} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-              </LinkListItem>
+              <LinkListMapItem>
+                  <Map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.9083112017606!2d73.03438075!3d18.9796563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c323fc5b2c09%3A0xe9d9b93daa82575c!2sBhagwati%20Bellavista%2C%20Sector%2023%2C%20Ulwe%2C%20Navi%20Mumbai%2C%20Maharashtra%20410206!5e0!3m2!1sen!2sin!4v1673182607440!5m2!1sen!2sin" frameborder="0" style={{ border: 0 }} allowfullscreen="" aria-hidden="false" tabindex="0"></Map>
+              </LinkListMapItem>
               <LinkListItem>
                 <Link>Address:- Bhagwati Bldg, Shop No-3, Plot-127, Sector-23, Ulwe, Navi Mumbai - 410206 </Link>
               </LinkListItem>
