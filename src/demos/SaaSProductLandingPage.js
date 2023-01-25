@@ -24,7 +24,7 @@ export default () => {
   return (
     <>
       <AnimationRevealPage>
-        <div style={{background:"url('wallimage2.jpg')", backgroundSize:'cover', paddingLeft:'2em', paddingRight:'2em'}}>
+        <div style={{background:"linear-gradient(black, black), url('imageforback.jpg')", backgroundBlendMode: 'saturation', backgroundSize:'cover', paddingLeft:'2em', paddingRight:'2em'}}>
         <Hero roundedHeaderButton={true} />
         </div>
         <Features
